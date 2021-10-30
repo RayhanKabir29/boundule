@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Container, Row,Button, Col} from 'react-bootstrap';
+import { Card,Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Service.css';
 

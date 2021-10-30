@@ -8,6 +8,7 @@ import ToutSpots from './components/TourSpots/ToutSpots';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/Login/PrivatrRoute/PrivateRoute';
 
 function App() {
   return (
@@ -31,9 +32,9 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
-            <Route path="/tourspot/:id">
+            <PrivateRoute path="/tourspot/:id">
               <ToutSpots></ToutSpots>
-            </Route>
+            </PrivateRoute>
           </Switch>
         </BrowserRouter>
       </AuthProvider>
