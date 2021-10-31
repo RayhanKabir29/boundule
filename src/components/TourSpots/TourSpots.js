@@ -34,6 +34,7 @@ const ToutSpots = () => {
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <input {...register("firstName", { required: true})} placeholder="First Name"/>
                                 <input {...register("lasttName", { required: true })} placeholder="Last Name"/>
+                                <input defaultValue={touristSpot?.email}{...register("email", { required: true })} placeholder="Email"/>
                                 <input {...register("days", { required: true })} placeholder="How Many Days"/>
                                 <input type="number" {...register("age", { min: 18, max: 99 })} placeholder="Age"/>
                                 <input type="submit" />
