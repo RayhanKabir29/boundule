@@ -4,22 +4,21 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({service}) => {
-    const {name,imgUrl, _id, price} = service;
+    const {firstName,imgUrl, _id, price,desc} = service;
     return (
         <div>
             <Card>
                 <Card.Img  src={imgUrl} className="img-fluid"/>
                     <Card.Body>
-                        <Card.Title>Name:{name}</Card.Title>
+                        <Card.Title>Name: {firstName} Tour</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            <p>Details: {desc}</p>
                         </Card.Text>
                         <Card.Text>
                             <h5>Package Fee: {price}</h5>
                         </Card.Text>
 
-                    <Link to={`/tourspot/${_id}`}><Button variant="primary">Book a Tour</Button></Link>
+                    <Link to={`/tourspot/${_id}`}><Button variant="primary">Book {firstName} Tour</Button></Link>
                 </Card.Body> 
             </Card>        
         </div>

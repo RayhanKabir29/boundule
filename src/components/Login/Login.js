@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import {useLocation,useHistory} from 'react-router-dom'
 import useAuth from '../../hooks/useAuth';
+import './Login.css';
 
 const Login = () => {
     const {signInWithGoogle} = useAuth();
@@ -16,9 +17,9 @@ const Login = () => {
         })
     }
     return (
-        <div>
+        <div className="login-container text-center">
             <h2>Please Log in Here</h2>
-            <Button variant="success" onClick={handleGoogleLogin}> Log in</Button>
+            <Button variant="success" onClick={handleGoogleLogin}> Log in With Google</Button>
         </div>
     );
 };
