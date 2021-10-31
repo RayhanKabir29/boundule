@@ -8,7 +8,7 @@ const ToutSpots = () => {
     //const [findSpot, setFindSpot] = useState({});
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${id}`)
+        fetch(`https://eerie-spirit-62269.herokuapp.com/services/${id}`)
         .then(res=> res.json())
         .then(data=> setTouristSpot(data))
     },[]);
