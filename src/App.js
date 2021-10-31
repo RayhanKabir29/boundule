@@ -4,11 +4,14 @@ import Home from './components/Home/Home';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import About from './components/About/About';
 import Services from './components/Services/Services';
-import ToutSpots from './components/TourSpots/ToutSpots';
+import ToutSpots from './components/TourSpots/TourSpots';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/Login/PrivatrRoute/PrivateRoute';
+import AddService from './components/AddService/AddService';
+import NotFound from './components/NotFount/NotFound';
+import ManageService from './components/ManageService/ManageService';
 
 function App() {
   return (
@@ -35,6 +38,15 @@ function App() {
             <PrivateRoute path="/tourspot/:id">
               <ToutSpots></ToutSpots>
             </PrivateRoute>
+            <Route path="/addService">
+            <AddService></AddService>
+            </Route>
+            <Route path ="/manageService">
+              <ManageService></ManageService>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
         </BrowserRouter>
       </AuthProvider>

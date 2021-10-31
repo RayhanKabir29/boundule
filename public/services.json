@@ -1,51 +1,33 @@
     [{  "service_id":"TP01",
         "name":"Quality Patients Care",
-        "doctorName":"Kabir",
-        "doctorID":"D01",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":300,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     },
 
-    {  "service_id":"SC11",
+    {  "service_id":"TP02",
         "name":"Teeth Cleaning",
-        "doctorName":"Rayhan",
-        "doctorID":"D02",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":300,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     },
-    {  "service_id":"SC10",
+    {  "service_id":"TP03",
         "name":"Orthodontics",
-        "doctorName":"Rana",
-        "doctorID":"D03",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":300,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     },
 
-    {  "service_id":"SC15",
+    {  "service_id":"TP04",
         "name":"Teeth Whitening",
-        "doctorName":"Raafeun",
-        "doctorID":"D04",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":300,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     },
-    {  "service_id":"SC01",
+    {  "service_id":"TP05",
         "name":"Scaling",
-        "doctorName":"Sadia Islam",
-        "doctorID":"D05",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":500,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     },
 
-    {  "service_id":"SC02",
+    {  "service_id":"TP06",
         "name":"Deep Clean",
-        "doctorName":"Maliha Kabir",
-        "doctorID":"D06",
-        "desc":"Handle patient With great care. We are No:1 in Service. Our Expert Dentist serve you with their best. You can asuure about the best",
         "fee":200,
         "img":"https://i.ibb.co/PQY3SkT/service1.jpg"
     }
